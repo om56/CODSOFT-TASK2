@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="th.jpeg" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <div class="home-content">
+        <div class="text-container">
+            <h1 class="fade-in">Welcome to My Portfolio</h1>
+            <p class="fade-in">I am a web developer skilled in creating modern and responsive web applications.</p>
+            <button class="btn">View My Work</button>
+        </div>
+        <div class="image-container">
+            <img src="Screenshot_20241015-150638.png" alt="Your Photo" class="profile-img">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-description fade-in">I'm a passionate developer skilled in HTML, CSS, and JavaScript, focused on building sleek and modern web applications that deliver the best user experience.</p>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project zoom-in">
+                <h3>Project 1</h3>
+                <p>Built my own landing page using HTML and CSS.</p>
+            </div>
+            <div class="project zoom-in">
+                <h3>Project 2</h3>
+                <p>Built my own Personal Portfolio webiste using HTML and CSS.</p>
+            </div>
+            <div class="project zoom-in">
+                <h3>Project 3</h3>
+                <p>Built a good calculator using HTML , CSS and JavaScript.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <form id="contact-form" class="fade-in">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
